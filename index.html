@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <title>Card-widget</title>
+</head>
+<body>
+    <div class="widget-container">
+        <div class="pay-system-container">
+            <img src="./src/images/visa.png" alt="Visa" class="pay-system-card visa">
+            <img src="./src/images/mastercard.png" alt="Mastercard" class="pay-system-card mastercard">
+            <img src="./src/images/discover.png" alt="Discover" class="pay-system-card discover">
+            <img src="./src/images/amex.png" alt="American express" class="pay-system-card amex">
+            <img src="./src/images/mir.png" alt="Mir" class="pay-system-card mir">
+        </div>
+        <div class="form-container">
+            <form class="form">
+                <label>
+                    <input id="field" type="text">
+                </label>
+            </form>
+            <button class="button">
+                Click to Validate
+            </button>
+        </div>
+        <div class="hint">
+            <div class="hint-item valid invisible"> 
+                <p>Card is valid!</p>
+                <button class="hint-button">ок</button>
+            </div>
+            <div class="hint-item not-valid invisible">
+                <p>Number is not valid!</p>
+                <button class="hint-button">ок</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./src/js/index.js"></script>
+</body>
+</html>

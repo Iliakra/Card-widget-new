@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+}
+
+.pay-system-card {
+    width: 35px;
+    height: 20px;
+    opacity: 20%;
+}
+
+.mastercard {
+    margin-bottom: 0;
+}    
+
+.amex {
+    margin-bottom: -3px;
+    height: 23px;
+}
+
+.button {
+    width: 110px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5eb462;
+    color: white;
+}
+
+#field {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+}
+
+.visible {
+    opacity: 100%;
+}
+
+.invisible {
+    display: none;
+}
+
+.hint {
+    position: relative;
+    margin-top: 10px;
+}
+
+.hint-item {
+    width: 150px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.hint-button {
+    margin-bottom: 10px;
+}
+
+.valid {
+    margin-left: 50px;
+    background-color: #5eb462;
+    color: white;
+}
+
+.not-valid {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background-color: red;
+    color: white;
+}

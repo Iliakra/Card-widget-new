@@ -1,0 +1,27 @@
+{
+  "name": "card-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "http-server index.html",
+    "lint": "eslint .",
+    "devserver": "live-server --browser=Chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "puppeteer": "^3.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
