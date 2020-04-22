@@ -7,7 +7,9 @@
     "test": "jest",
     "serve": "http-server index.html",
     "lint": "eslint .",
-    "devserver": "live-server --browser=Chrome"
+    "devserver": "live-server --browser=Chrome",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +20,17 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-typescript": "^7.9.0",
     "babel-jest": "^25.3.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-config-airbnb": "^18.1.0",
+    "html-webpack-plugin": "^4.2.0",
     "jest": "^25.3.0",
-    "puppeteer": "^3.0.0"
+    "mini-css-extract-plugin": "^0.9.0",
+    "puppeteer": "^3.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "core-js": "^3.6.5"

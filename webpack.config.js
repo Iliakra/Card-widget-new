@@ -1,9 +1,11 @@
+/* eslint-disable no-undef */
 
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
+  entry: './src/js/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
@@ -18,10 +20,10 @@ module.exports = {
       },
       {
         test: /\.html$/,
+        exclude: [path.resolve(__dirname, 'index.html')],
         use: [
           {
             loader: 'html-loader',
-            exclude: [path.resolve(__dirname, 'index.html')],
           },
         ],
       },

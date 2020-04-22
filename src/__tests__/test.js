@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import algLuna from '../js/algLuna.js'
 import compCheck from '../js/payCompCheck.js'
 
