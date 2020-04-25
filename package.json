@@ -34,5 +34,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "src/__tests__/e2e/e2e.server.js"
+    ]
   }
 }
